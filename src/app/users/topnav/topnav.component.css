@@ -1,0 +1,28 @@
+body,
+html {
+    font: bold 14px/1.4;
+}
+
+a {
+    color: dodgerblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    background: dodgerblue;
+}
+
+a:hover:after {
+    width: 85%;
+    left: 0;
+}
